@@ -44,4 +44,19 @@
     
     return false;
   }
+
+  function editProduto($novoProduto) {
+    $produtos = getProdutos();
+
+    foreach($produtos as $index => $produto) {
+      if ($produto['id'] == $novoProduto['id']) {
+        $produtos[$index] = $novoProduto;
+    
+        $json_produtos = json_encode($produtos);
+        return file_put_contents(ARQUIVO, $json_produtos);
+      }
+    }
+
+    return false;
+  }
 ?>
