@@ -11,6 +11,7 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./assets/css/styles.css">
   </head>
   <body>
     <header>
@@ -34,6 +35,7 @@
                 >Home <span class="sr-only">(current)</span></a
               >
               <a class="nav-item nav-link active" href="createProduto.php">Adicionar produto</a>
+              <a class="nav-item nav-link active" href="createUsuario.php">Usuários</a>
             </div>
           </div>
         </div>
