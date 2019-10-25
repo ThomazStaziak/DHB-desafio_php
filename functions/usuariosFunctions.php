@@ -59,4 +59,19 @@
 
     return false;
   }
+
+  function login($email, $senha) {
+    $usuarios = getUsuarios();
+
+    foreach ($usuarios as $usuario) {
+      if (
+        $usuario['email'] == $email && 
+        password_verify($senha, $usuario['senha'])
+      ) {
+        return $usuario;
+      }
+    }
+
+    return false;
+  }
 ?>

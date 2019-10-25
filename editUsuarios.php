@@ -87,5 +87,5 @@
         </div>
   </div>
 <?php
-  include './includes/footer_adm.php';
+  include './includes/footer.php';
 ?>

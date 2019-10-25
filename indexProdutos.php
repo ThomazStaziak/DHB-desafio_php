@@ -34,4 +34,4 @@
     </table>
   </div>
 </main>
-<?php include './includes/footer_adm.php' ?>
+<?php include './includes/footer.php' ?>

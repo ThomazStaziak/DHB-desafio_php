@@ -108,5 +108,5 @@
 
 </main>
 <?php 
-  include './includes/footer_adm.php';
+  include './includes/footer.php';
 ?>
