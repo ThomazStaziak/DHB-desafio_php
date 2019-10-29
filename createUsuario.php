@@ -1,6 +1,10 @@
 <?php 
+  session_start();
   require './functions/usuariosFunctions.php';  
-  include './includes/header_adm.php';
+  if ($_SESSION['usuario'])
+    include './includes/header_adm.php';
+  else
+    include './includes/header.php';
 
   if ($_POST) {
     $erros = [
@@ -41,6 +45,7 @@
   }
 
   if ($_GET && $_GET['id']) {
+    if (!$_SESSION['usuario']) return header('Location: createUsuario.php');
     deleteUsuario($_GET['id']);
   }
 

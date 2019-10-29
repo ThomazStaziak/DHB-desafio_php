@@ -29,6 +29,9 @@
         <input id="senhaInput" type="password" name="senha" class="form-control">
       </div>
       <div class="form-group">
+        <a href="createUsuario.php"><small>Ainda não tenho cadastro</small></a>
+      </div>
+      <div class="form-group">
         <button class="btn btn-primary col-12">Logar</button>
       </div>
     </form>

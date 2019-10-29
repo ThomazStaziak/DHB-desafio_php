@@ -1,3 +1,6 @@
+<?php
+  require './functions/validaLogin.php';
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -38,6 +41,7 @@
               <a class="nav-item nav-link active" href="createUsuario.php">Usuários</a>
             </div>
           </div>
+          <a class="text-white" href="functions/logout.php">Logout</a>
         </div>
       </nav>
     </header>

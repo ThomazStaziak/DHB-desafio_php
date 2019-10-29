@@ -11,6 +11,7 @@
     $usuarios = getUsuarios();
     
     if (empty($usuarios)) {
+      $usuarios = [];
       $usuario['id'] = 1;
     } else {
       $usuario['id'] = ++end($usuarios)['id'];    
