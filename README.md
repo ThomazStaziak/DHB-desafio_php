@@ -1,3 +1,5 @@
+![alt text](https://br.digitalhouse.com/wp-content/uploads/2018/02/dh-coding-school-logo.jpg "Logo Digital House")
+
 # Desafio PHP
 
 1. Criar uma tela **(createProduto.php)** com um formulário a partir do
