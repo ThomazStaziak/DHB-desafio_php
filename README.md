@@ -1,4 +1,4 @@
-![alt text](https://br.digitalhouse.com/wp-content/uploads/2018/02/dh-coding-school-logo.jpg "Logo Digital House")
+![alt text](https://cdn.digitalks.com.br/wp-content/uploads/2018/05/Logo-fondo-blanco.png "Logo Digital House")
 
 # Desafio PHP
 
